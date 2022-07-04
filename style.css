@@ -6,16 +6,17 @@ margin: 0;
 h1{
     font-size:50px;
 }
-.orange-color{
+.red-color{
     color: red;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 15px;
+    
 }
 .half-width img {
     width: 100%;
@@ -31,4 +32,19 @@ section{
 }
 .banner{
     background-image:url(image/banner.webp);
+}
+.experience-area{
+    background-image: url(image/k.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;  
+    border-left: 5px solid coral;
 }
