@@ -1,0 +1,34 @@
+body{
+    font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding-bottom: ;
+}
+h1{
+    font-size:50px;
+}
+.orange-color{
+    color: red;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 15px;
+}
+.half-width img {
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red,
+    orange);
+    font-weight: 700;
+    color: white;
+    padding: 3px 20px ;
+    border-radius: 5px;
+}
+.banner{
+    background-image:url(image/banner.webp);
+}
