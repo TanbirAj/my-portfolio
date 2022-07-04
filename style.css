@@ -2,7 +2,6 @@ body{
     font-family: 'Pacifico', cursive;
 font-family: 'Poppins', sans-serif;
 margin: 0;
-padding-bottom: ;
 }
 h1{
     font-size:50px;
@@ -12,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -31,4 +31,8 @@ section{
 }
 .banner{
     background-image:url(image/banner.webp);
+}
+.d{
+    background-repeat: no-repeat;
+    background-position: right;
 }
