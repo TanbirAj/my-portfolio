@@ -32,7 +32,3 @@ section{
 .banner{
     background-image:url(image/banner.webp);
 }
-.d{
-    background-repeat: no-repeat;
-    background-position: right;
-}
